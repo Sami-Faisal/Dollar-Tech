@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Dollar Tech - Modern digital skills institute. Get in touch for courses in SEO, AI Automation, YouTube Automation, Digital Marketing, Truck Dispatching, and Content Writing.">
+  <title>Contact - Dollar Tech</title>
+  <link rel="stylesheet" href="contact.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="icon" type="image/jpeg" href="favicon.jpg">
+</head>
+<body style="background:url('sitebg.png') no-repeat center center/cover;">
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="favicon.jpg" alt="Dollar Tech Logo">
+      <span>Dollar Tech</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="Home">Home</a></li>
+        <li><a href="About">About</a></li>
+        <li><a href="Services">Services</a></li>
+        <li><a href="Contact">Courses</a></li>
+        <li><a href="Blog">Blog</a></li>
+        <li><a href="Contact" class="active">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Hamburger Menu -->
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-section" style="padding-top:120px;">
+    <h1>Get In Touch</h1>
+    <p>Have questions or want to enroll? Fill the form below or reach us via email or social media.</p>
+
+    <div class="contact-grid">
+      <!-- Contact Info Box -->
+      <div class="contact-info">
+        <h3>Contact Info</h3>
+        <p><strong>Email:</strong> enquiries@dollartech.info</p>
+        <p><strong>Phone:</strong> +92 329 4265320</p>
+        <p><strong>Address:</strong> C384+HM3, Rajbah Rd, Afghanabad, Faisalabad, Pakistan</p>
+      <div class="socials">
+        <a href="https://www.facebook.com/dollartech"><i class="ri-facebook-fill"></i></a>
+        <a href="https://pk.linkedin.com/company/dollartech-official"><i class="ri-linkedin-fill"></i></a>
+        <a href="https://www.instagram.com/dollar_tech24/"><i class="ri-instagram-fill"></i></a>
+        <a href="https://www.youtube.com/@dollartech24"><i class="ri-youtube-fill"></i></a>
+        <a href="https://api.whatsapp.com/send/?phone=923294265320&text&type=phone_number&app_absent=0"><i class="ri-whatsapp-fill"></i></a>
+      </div>
+      </div>
+
+      <!-- Contact Form Box -->
+      <div class="contact-form">
+        <form>
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <textarea id="message" rows="6" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Google Map -->
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.929532263537!2d73.0366616!3d31.4192999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391903c0f3d6c2d5%3A0x0!2sC384%2BHM3%2C%20Rajbah%20Rd%2C%20Afghanabad%2C%20Faisalabad!5e0!3m2!1sen!2s!4v1692869999999!5m2!1sen!2s"
+        width="100%" height="350" allowfullscreen loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <!-- Left Side -->
+      <div class="footer-content">
+        <h3>Reach Us</h3>
+        <p>
+          Contact Dollar Tech for inquiries about our courses, admissions, or any other information. Reach out to us via email, phone, or visit our campus. We're committed to supporting your educational journey.
+        </p>
+      </div>
+
+      <!-- Middle -->
+      <div class="footer-links">
+        <a href="https://api.whatsapp.com/send/?phone=923294265320&text&type=phone_number&app_absent=0">Contact Us</a>
+      </div>
+
+      <!-- Right Side (Socials) -->
+      <div class="socials">
+        <a href="https://www.facebook.com/dollartech"><i class="ri-facebook-fill"></i></a>
+        <a href="https://pk.linkedin.com/company/dollartech-official"><i class="ri-linkedin-fill"></i></a>
+        <a href="https://www.instagram.com/dollar_tech24/"><i class="ri-instagram-fill"></i></a>
+        <a href="https://www.youtube.com/@dollartech24"><i class="ri-youtube-fill"></i></a>
+        <a href="https://api.whatsapp.com/send/?phone=923294265320&text&type=phone_number&app_absent=0"><i class="ri-whatsapp-fill"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Dollar Tech. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JS for Hamburger Menu -->
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('nav ul');
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
