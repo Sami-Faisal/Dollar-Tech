@@ -42,21 +42,22 @@
   </section>
 
   <!-- Blog Grid -->
-<section class="blog-grid">
-  <div class="blog-card">
-    <img src="seoblog.png" alt="Blog 1">
-    <h3>Learn SEO in 2025: The Ultimate Step-by-Step Guide for Beginners</h3>
-    <a href="blogseo">Read More</a>
-  </div>
-</section>
-
+  <section class="blog-grid">
+    <div class="blog-card">
+      <img src="seoblog.png" alt="Blog 1">
+      <h3>Learn SEO in 2025: The Ultimate Step-by-Step Guide for Beginners</h3>
+      <a href="blogseo">Read More</a>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer>
     <div class="footer-container">
       <div class="footer-content">
         <h3>Reach Us</h3>
-        <p>Contact Dollar Tech for inquiries about courses, admissions, or support.</p>
+        <p>Contact Dollar Tech for inquiries about services, projects, or support.</p>
+        <p><strong>Email:</strong> enquiries@dollartech.info</p>
+        <p><strong>Phone:</strong> +92 329 4265320</p>
       </div>
       <div class="footer-links">
         <a href="Contact">Contact Us</a>
@@ -76,7 +77,18 @@
 
 </div>
 
-<script src="js/main.js"></script>
+<!-- JS for Hamburger -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburger = document.getElementById("hamburger");
+  const nav = document.querySelector("header nav ul");
+
+  hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    nav.classList.toggle("active"); // toggles mobile menu
+  });
+});
+</script>
+
 </body>
 </html>
-
