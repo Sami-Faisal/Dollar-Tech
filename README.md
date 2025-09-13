@@ -1,1 +1,1 @@
-# Dollar-Tech
+# DollarTech
